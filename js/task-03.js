@@ -12,3 +12,12 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+const createGalleryEl = document.querySelector('.gallery')
+const addPicturesEl = images.map( image => {
+  const pictureEl = document.createElement('img')
+  pictureEl.url = image.url
+  pictureEl.alt = image.alt
+  pictureEl.classList.add('images')
+  return pictureEl})
+  console.log(addPicturesEl)
