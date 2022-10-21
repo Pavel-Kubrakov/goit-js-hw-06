@@ -26,6 +26,7 @@ button {
 .img{
   width: 100%;
   height: 100%;
+  background-size: contain ;
 }
 
 .item-img{
@@ -34,14 +35,11 @@ button {
   flex-basis: calc(100% - 60px / 3);
   list-style: none;
   border: 1px solid #00043a;
-  width: 450px;
-  height: 580px;
-
 }
 
 .gallery{
   display: flex;
   justify-content: center;
   flex-basis: calc(100% - 60px / 3);
-  justify-content: center;
+
 }

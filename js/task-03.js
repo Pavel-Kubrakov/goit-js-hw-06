@@ -15,6 +15,6 @@ const images = [
 
 const findUl = document.querySelector('.gallery')
 
-const markup = images.map((image)=>`<li class="item-img"><img class="img" url="${image.url}" alt="${image.alt}">`)
+const markup = images.map((image)=>`<li class="item-img"><img class="img" src="${image.url}" alt="${image.alt}">`)
 
 findUl.insertAdjacentHTML( "beforebegin", markup)
