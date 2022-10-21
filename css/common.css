@@ -41,5 +41,5 @@ button {
   display: flex;
   justify-content: center;
   flex-basis: calc(100% - 60px / 3);
-
+justify-content: center;
 }
